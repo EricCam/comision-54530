@@ -103,7 +103,7 @@ footer {
     flex-direction: column;
     justify-content: left;
     font-size: 3rem;
-}   
+}
 
 .iconos {
     display: flex;
@@ -202,11 +202,11 @@ footer {
 
 .galeria {
     width: 100%;
-    height: 100%; 
+    height: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    
+
 }
 
 
@@ -215,18 +215,19 @@ footer {
     grid-row: 1 / 2
 }
 
-.mariposa img{
+.mariposa img {
     overflow: hidden;
     width: 100%;
     height: 100%;
 }
+
 .espalda {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
 
 }
 
-.espalda img{
+.espalda img {
     object-fit: cover;
     width: 100%;
     height: 100%;
@@ -236,19 +237,22 @@ footer {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
 }
-.pecho img{
+
+.pecho img {
     object-fit: cover;
     width: 100%;
     height: 100%;
 }
+
 .libre {
-    
+
     grid-column: 1 / 3;
     grid-row: 3 / 4;
 }
-.libre img{
+
+.libre img {
     overflow: hidden;
-    width: 100%; 
+    width: 100%;
     height: 100%;
 }
 
