@@ -108,8 +108,9 @@ footer {
 .iconos {
     display: flex;
     flex-direction: row-reverse;
-    align-items: center;
-    padding-right: 1rem;
+    align-items: flex-start;
+    padding-right: 2rem;
+    border-bottom: 2rem;
     gap: 2rem;
 
 }
@@ -259,14 +260,136 @@ footer {
 
 
 
-
-
-
-
-
-
 html {
     font-size: 62.5%;
 }
 
-@media (max-widht: 1024px) {}
+@media (max-width:904px) {
+    h1 {
+        word-spacing: 0.8rem;
+        font-size: 8rem;
+    }
+
+    .abcd {
+        word-spacing: 0.2rem;
+        font-size: 1.6rem;
+    }
+
+    .img {
+        width: 20rem;
+        height: 45rem;
+    }
+
+    .centrado {
+        font-size: 1.6rem;
+    }
+
+    .listaUlt {
+        font-size: 1.6rem;
+    }
+
+    .tamañoIcono {
+        padding-bottom: 2rem;
+        gap: 1rem;
+        width: 75%;
+        height: 75%;
+
+    }
+
+}
+
+@media (max-width:604px) {
+    h1 {
+        word-spacing: 0.6rem;
+        font-size: 6rem;
+    }
+
+    .abcd {
+        word-spacing: 0.2rem;
+        font-size: 1.6rem;
+    }
+
+    .img {
+        width: 10rem;
+        height: 30rem;
+    }
+
+    .centrado {
+        font-size: 1.6rem;
+    }
+
+    .listaUlt {
+        font-size: 1.6rem;
+    }
+
+    .tamañoIcono {
+        padding-bottom: 2rem;
+        gap: 0.3rem;
+        width: 65%;
+        height: 65%;
+
+    }
+
+}
+
+
+
+@media (max-width:484px) {
+    h1 {
+        word-spacing: 0.4rem;
+        font-size: 4rem;
+    }
+
+    .tamañoIcono {
+        padding-bottom: 2rem;
+        gap: 0.3rem;
+        width: 50%;
+        height: 50%;
+
+    }
+}
+
+/* .abcd {                 nav
+    word-spacing: 0.4rem;
+    font-size: 3rem;
+
+} */
+
+/* .img {                            imagenes principal
+    width: 30rem;
+    height: 90rem;
+} */
+
+/* .centrado {                        letras dentro de las imagenes
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #F6ED11;
+    font-size: 3rem;
+} */
+
+/* .listaUlt {                       lista escuelas
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    font-size: 3rem;
+} */
+
+/* .iconos {                            iconos face ins tik
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-right: 1rem;
+    gap: 2rem;
+
+} */
+
+
+/* h1 {
+    background-color: #107BFA;
+    color: #F6ED11;
+    -webkit-text-stroke: black;
+    word-spacing: 1rem;
+    font-size: 10rem;
+} */
