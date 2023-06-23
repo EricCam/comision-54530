@@ -1,0 +1,75 @@
+main {
+    .mainHistoria2 {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .galeria {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+
+        .mariposa {
+            grid-column: 1 / 3;
+            grid-row: 1 / 2;
+
+            img {
+                overflow: hidden;
+                width: 100%;
+                height: 100%;
+                bottom: 2rem;
+            }
+            & :hover{
+                transform: scale(0.99);
+            }
+        }
+
+        .espalda {
+            grid-column: 1 / 2;
+            grid-row: 2 / 3;
+
+            img {
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+            }
+            & :hover{
+                transform: scale(0.99);
+            }
+
+        }
+
+        .pecho {
+            grid-column: 2 / 3;
+            grid-row: 2 / 3;
+
+            img {
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+            }
+            & :hover{
+                transform: scale(0.99);
+            }
+        }
+
+        .libre {
+
+            grid-column: 1 / 3;
+            grid-row: 3 / 4;
+
+            img {
+                overflow: hidden;
+                width: 100%;
+                height: 100%;
+            }
+            & :hover{
+                transform: scale(0.99);
+            }
+
+        }
+
+    }
+}

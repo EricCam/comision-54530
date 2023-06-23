@@ -1,0 +1,29 @@
+header {
+    background-color: $color-a;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+
+    h1 {
+    background-color: $color-a;
+    color: #F6ED11;
+    -webkit-text-stroke: black;
+    word-spacing: 1rem;
+    font-size: 10rem;
+    }
+}
+
+.lineaInicio {
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 2rem;
+    width: 100%;
+    background-color: $color-b;
+
+}
+
+.abcd {
+    word-spacing: 0.4rem;
+    font-size: 3rem;
+    
+}

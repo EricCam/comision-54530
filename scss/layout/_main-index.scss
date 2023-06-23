@@ -1,0 +1,46 @@
+main {
+    background-color: $color-b;
+    font-family: 'Roboto', sans-serif;
+
+    section {
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+
+        div {
+            .contenedor {
+
+                position: relative;
+                display: inline-block;
+                text-align: center;
+
+                .img {
+                    width: 30rem;
+                    height: 90rem;
+                }
+                & :hover{
+                    transform: scale(0.98);
+                }
+
+                .centrado {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    color: #F6ED11;
+                    font-size: 3rem;
+                }
+
+            }
+
+
+        }
+    }
+
+
+
+
+
+
+
+
+}

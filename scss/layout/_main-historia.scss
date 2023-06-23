@@ -1,0 +1,36 @@
+.hero {
+    @include historia (column, nowrap);
+    background-color: $color-b;
+
+    main {
+        .mainHistoria {
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            font-size: 1.6rem;
+            padding: 20px;
+
+            .subrayado {
+                text-decoration: underline;
+            }
+
+            .espacio .subrayado {
+                padding: 20px;
+            }
+
+            .espacio {
+                padding: 20px;
+            }
+        }
+    }
+
+    .imgAside {
+
+        object-fit: cover;
+        justify-content: space-evenly;
+        padding-left: 3.5rem;
+        padding-right: 0.5rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+
+    }
+}

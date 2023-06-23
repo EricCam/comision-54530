@@ -1,0 +1,6 @@
+@mixin historia($column,$nowrap){
+    display: flex;
+    flex-direction: $column;
+    flex-wrap: $nowrap;
+}
+

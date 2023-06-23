@@ -1,0 +1,49 @@
+@media (max-width:635px) {
+    header{
+        h1 {
+            word-spacing: 0.6rem;
+            font-size: 6rem;
+        }
+        .lineaInicio{
+            .abcd {
+                word-spacing: 0.2rem;
+                font-size: 1.8rem;
+            }
+        
+        }
+    }    
+    main{
+        section{
+            
+                .contenedor{
+                    a{ 
+                    .img {
+                        width: 19rem;
+                        height: 50rem;
+                    }
+                    .centrado {
+                        font-size: 1.8rem;
+                    }
+                    }
+                }
+            
+        }
+    } 
+    footer{
+        .heroF{
+            .listaUlt {
+                font-size: 1.8rem;
+            }
+        }
+            .iconos{
+                .tamañoIcono {
+                    padding-bottom: 2rem;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    width: 70%;
+                    height: 70%;
+                    
+                }
+            }
+    }
+    }

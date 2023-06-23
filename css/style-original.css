@@ -1,0 +1,531 @@
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+/**font-family: 'Roboto', sans-serif;**/
+header {
+
+    background-color: #107BFA;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+
+
+}
+
+
+
+h1 {
+    background-color: #107BFA;
+    color: #F6ED11;
+    -webkit-text-stroke: black;
+    word-spacing: 1rem;
+    font-size: 10rem;
+}
+
+.lineaInicio {
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 2rem;
+    width: 100%;
+    background-color: #0dc8f1;
+    
+}
+
+.abcd {
+    word-spacing: 0.4rem;
+    font-size: 3rem;
+
+}
+
+main {
+    background-color: #0dc8F1;
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+
+
+.contenedor {
+
+    position: relative;
+    display: inline-block;
+    text-align: center;
+
+}
+
+
+.centrado {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #F6ED11;
+    font-size: 3rem;
+}
+
+.img {
+    width: 30rem;
+    height: 90rem;
+}
+
+.sinPuntos {
+    list-style: none;
+}
+
+
+
+
+footer {
+    background-color: #107BFA;
+    font-family: 'Roboto', sans-serif;
+}
+
+.heroF {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* .abcdF {
+    font-size: 3rem;
+} */
+
+.listaUlt {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    font-size: 3rem;
+}
+
+.iconos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    padding-right: 2rem;
+    gap: 2rem;
+
+}
+
+/* tamaño de inicio en las sig paguinas */
+.tamañoInicio {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    align-items: center;
+    font-size: 1.6rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** historia de la natacion argentina**/
+
+
+
+
+
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: #0DC8F1
+}
+
+.espacio {
+    padding: 20px;
+}
+
+.subrayado {
+    text-decoration: underline;
+
+}
+
+
+.mainHistoria {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    padding: 20px;
+}
+
+.imgAside{
+    
+    overflow: hidden;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+
+
+
+/*estilos */
+
+
+.mainHistoria2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+
+}
+
+
+
+.galeria {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+}
+
+
+.mariposa {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+}
+
+.mariposa img {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    bottom: 2rem;
+}
+
+.espalda {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+
+}
+
+.espalda img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.pecho {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.pecho img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.libre {
+
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+}
+
+.libre img {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+html {
+    font-size: 62.5%;
+}
+
+@media (max-width:904px) {
+    h1 {
+        word-spacing: 0.8rem;
+        font-size: 9rem;
+    }
+
+    .abcd {
+        word-spacing: 0.2rem;
+        font-size: 2.7rem;
+    }
+
+    .img {
+        width: 27rem;
+        height: 80rem;
+    }
+
+    .centrado {
+        font-size: 2.7rem;
+    }
+
+    .listaUlt {
+        font-size: 2.7rem;
+    }
+
+    .tamañoIcono {
+        padding-bottom: 2rem;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 90%;
+        height: 90%;
+        
+    }
+
+}
+
+@media (max-width:815px) {
+    h1 {
+        word-spacing: 0.8rem;
+        font-size: 8rem;
+    }
+
+    .abcd {
+        word-spacing: 0.2rem;
+        font-size: 2.4rem;
+    }
+
+    .img {
+        width: 24rem;
+        height: 70rem;
+    }
+
+    .centrado {
+        font-size: 2.4rem;
+    }
+
+    .listaUlt {
+        font-size: 2.4rem;
+    }
+
+    .tamañoIcono {
+        padding-bottom: 2rem;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 85%;
+        height: 85%;
+
+    }
+}
+
+@media (max-width:725px) {
+    h1 {
+        word-spacing: 0.8rem;
+        font-size: 7rem;
+    }
+
+
+    .abcd {
+        word-spacing: 0.2rem;
+        font-size: 2.1rem;
+    }
+
+    .img {
+        width: 21rem;
+        height: 60rem;
+    }
+
+    .centrado {
+        font-size: 2.1rem;
+    }
+
+    .listaUlt {
+        font-size: 2.1rem;
+    }
+
+    .tamañoIcono {
+        padding-bottom: 2rem;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 80%;
+        height: 80%;
+
+    }
+}
+
+@media (max-width:635px) {
+    h1 {
+        word-spacing: 0.6rem;
+        font-size: 6rem;
+    }
+
+    .abcd {
+        word-spacing: 0.2rem;
+        font-size: 1.8rem;
+    }
+
+    .img {
+        width: 19rem;
+        height: 50rem;
+    }
+
+    .centrado {
+        font-size: 1.8rem;
+    }
+
+    .listaUlt {
+        font-size: 1.8rem;
+    }
+
+    .tamañoIcono {
+        padding-bottom: 2rem;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 70%;
+        height: 70%;
+
+    }
+
+}
+
+@media (max-width: 575px) {
+    h1 {
+        word-spacing: 0.6rem;
+        font-size: 5rem;
+    }
+
+    .abcd {
+        word-spacing: 0.2rem;
+        font-size: 1.6rem;
+    }
+
+    .img {
+        width: 15rem;
+        height: 40rem;
+    }
+
+    .centrado {
+        font-size: 1.6rem;
+    }
+
+    .listaUlt {
+        font-size: 1.6rem;
+    }
+
+    .tamañoIcono {
+        padding-bottom: 2rem;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 60%;
+        height: 60%;
+
+    }
+}
+
+
+
+
+@media (max-width:455px) {
+    h1 {
+        word-spacing: 0.6rem;
+        font-size: 4rem;
+    }
+
+    section {
+        /* padding-bottom: 2rem; */
+    }
+    
+    footer {
+        padding-bottom: 2rem;
+    }
+
+    .abcd {
+        word-spacing: 0.2rem;
+        font-size: 1.6rem;
+    }
+
+    .img {
+        width: 13rem;
+        height: 35rem;
+    }
+
+    .centrado {
+        font-size: 1.6rem;
+    }
+
+    .listaUlt {
+        font-size: 1.6rem;
+    }
+
+    .tamañoIcono {
+        padding-bottom: 2rem;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 50%;
+        height: 50%;
+
+    }
+
+}
+
+
+@media (max-width:395px) {
+    h1 {
+        word-spacing: 0.6rem;
+        font-size: 4rem;
+    }
+
+    section {
+        padding-top: 2rem;
+        padding-bottom: 2rem; 
+    }
+    
+    footer {
+        
+        padding-bottom: 3rem;
+        width: 100%;
+
+    }
+
+    .abcd {
+        align-items: center;
+        word-spacing: 0.2rem;
+        font-size: 1.6rem;
+    }
+
+    .img {
+        width: 10rem;
+        height: 40rem;
+    }
+
+    .centrado {
+        font-size: 1.6rem;
+    }
+
+    .listaUlt {
+        font-size: 1.6rem;
+        
+    }
+
+    .tamañoIcono {
+        padding-bottom: 6rem;
+        width: 60%;
+        height: 60%;
+        
+    }
+
+}
+

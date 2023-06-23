@@ -1,0 +1,24 @@
+footer {
+    background-color: $color-a;
+    font-family: 'Roboto', sans-serif;
+    .heroF {
+        display: flex;
+        justify-content: space-between;
+        .listaUlt { 
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        font-size: 3rem;
+            }
+        .iconos{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 2rem;
+        padding-right: 2rem;
+        gap: 2rem;
+
+        }
+        }
+    }
+        
